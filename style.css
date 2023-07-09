@@ -90,5 +90,127 @@ section{
     list-style:square;
  }
 
+ .plan{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0 80px 0;
+ }
+
+ .plan-cloumn{
+    display: flex;
+    justify-content: center;
+    gap:140px;
+    padding: 25px;
+ }
+ .plan-khamba{
+    padding:20px;
+    text-align: center;
+ }
+ .plan-sos{
+    font-size: 30px;
+    font-weight: 700;
+    color:#151414;
+ }
+ .plan-khamba p{
+    font-size: 25px;
+    font-weight: 500;
+    color:#444343;
+    text-align: center;
+ }
+
+
+ .mailston{
+     width:1140px;
+     height: 400px;
+     margin: 20px auto;
+     background-image: url('./images/watch.png');
+     background-position: center;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+ }
+ .overlay{
+   width:1140px;
+   height: 400px;
+   background-image: url('./images/gradient2.png');
+ }
+ .wrap{
+    position: absolute;
+    top:120px;
+    left:80px;
+    color:#fff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+ }
+ .btn-call{
+    position:absolute;
+    background-color: #fff;
+    top:270px;
+    left: 80px;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color:#F15B22;
+    outline: none;
+ }
+
+ /*---------------footer----------------*/
+footer{
+    background-color: #151414;
+    color:#fff;
+}
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    padding:130px 230px;
+ }
+
+ .foot-bar{
+    width:500px;
+ }
+
+ 
+.foot-text{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.foot-disc{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#Fff;
+    margin-bottom: 30px;
+}
+.social-links{
+    margin-top: 35px;
+    display: flex;
+    gap:30px;
+}
+
+.foot-sub h4{
+    font-size: 25px ;
+    font-weight: 600;
+}
+.foot-sub input{
+    padding: 20px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.btn-sub{
+    background-color: #fff;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color:#F15B22;
+    outline: none; 
+}
 
 
